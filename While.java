@@ -1,7 +1,7 @@
 '''while-loop'''
 import java.util.Scanner;
 
-class Whileloop
+class While
 {
 	public static void main(String args[])
 	{
