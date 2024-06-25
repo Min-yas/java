@@ -1,20 +1,20 @@
-'''while loop'''
+'''while-loop'''
 import java.util.Scanner;
 
-class While
+class Whileloop
 {
 	public static void main(String args[])
 	{
-		int num;
+		int number;
 
 		System.out.println("Enter value for condition: ");
 		Scanner r=new Scanner(System.in);
-		num=r.nextInt();
+		number=r.nextInt();
 		
-		while(num>=0)
+		while(number>=0)
 		{
 			System.out.println("learn coding");
-			num-=num;
+			number-=number;
 		}
 	}
 }
